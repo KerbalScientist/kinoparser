@@ -14,6 +14,11 @@ INSTALLATION
 
 Clone repository to local directory and change current directory to it.
 
+~~~
+git clone https://github.com/KerbalScientist/kinoparser.git kinoparser
+cd kinoparser
+~~~
+
 If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
 at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 
@@ -23,7 +28,7 @@ You can then install this project template using the following commands:
 php composer.phar install --no-dev
 ~~~
 
-Then configure your database as described below and run:
+Then configure your database as described below (CONFIGURATION section) and run:
 
 ~~~
 php yii migrate --interactive=0
@@ -37,10 +42,7 @@ http://localhost:8080/
 ~~~
 
 If you want to serve this application for other users, configure your web server
-as described here: 
-~~~
-http://www.yiiframework.com/doc-2.0/guide-start-installation.html#configuring-web-servers
-~~~
+as described [here](http://www.yiiframework.com/doc-2.0/guide-start-installation.html#configuring-web-servers).
 
 
 CONFIGURATION
