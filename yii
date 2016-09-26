@@ -8,8 +8,8 @@
  * @license http://www.yiiframework.com/license/
  */
 
-getenv('RUSSOCOMP_DEBUG') and (defined('YII_DEBUG') or define('YII_DEBUG', true));
-getenv('RUSSOCOMP_DEBUG') and (defined('YII_ENV') or define('YII_ENV', 'dev'));
+getenv('KINOPARSER_DEBUG') and (defined('YII_DEBUG') or define('YII_DEBUG', true));
+getenv('KINOPARSER_DEBUG') and (defined('YII_ENV') or define('YII_ENV', 'dev'));
 
 require(__DIR__ . '/vendor/autoload.php');
 require(__DIR__ . '/vendor/yiisoft/yii2/Yii.php');
